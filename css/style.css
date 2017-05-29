@@ -20,7 +20,7 @@ body {
 	position:relative;
 	margin: 0;
 	padding:0;
-	font-family: 'Roboto', sans-serif;
+	font-family: 'Lato', sans-serif;
 	font-weight:300;
 	font-size: 13px;
 	line-height: 20px;
@@ -127,7 +127,7 @@ p {margin:0 0 20px;}
 
 h1, h2, h3, h4, h5, h6 {
 	margin-top:0;
-	font-family: 'Roboto', sans-serif;
+	font-family: 'Lato', sans-serif;
 	text-transform:none;
 	font-weight:300;
 	color:#333;
@@ -256,12 +256,11 @@ header {
 	display:inline-block;
 	padding-right:18px;
 }
-.logo a span.b1 {font-weight:900;}
-.logo a span.b2 {font-weight:700;}
-.logo a span.b3 {font-weight:400;}
-.logo a span.b4 {font-weight:300;}
-.logo a span.b5 {font-weight:100;}
-
+.logo img{
+	max-height: 40px;
+	top:17px;
+	position:absolute;
+}
 
 
 
@@ -287,16 +286,16 @@ header {
 	margin:0 0 0 -3px;
 	padding:30px 20px;
 	text-transform:uppercase;
-	font-weight:900;
+	font-weight:400;
 	line-height:20px;
 	font-size:13px;
-	color:#666;
+	color:#3e6c61;
 	transition: all 0.3s ease-in-out; 
 	-webkit-transition: all 0.3s ease-in-out;
 }
 .navmenu li:hover a,
 .navmenu li.active a {
-	color:#333;
+	color:#7dcbb4;
 }
 
 /* Sub menu */
@@ -321,7 +320,7 @@ header {
     height: 0;
     border-left: 6px solid transparent;
     border-right: 7px solid transparent;
-    border-bottom: 6px solid #1c1c1c;
+    border-bottom: 6px solid #3e6c61;
 }
 
 .sub-menu ul li  {
@@ -337,13 +336,11 @@ header {
 	font-weight:400;
 	text-align:left;
 	font-size:12px;
-	color:#999 !important;
-	background:#1c1c1c;
-	border-bottom:1px solid #282828;
+	color:#fff;
+	background:#3e6c61;
 }
-.sub-menu ul li:last-child a {border-bottom:0;}
 
-.sub-menu ul li.active a, .sub-menu ul li a:hover {color:#fff !important; background:#161616;}
+.sub-menu ul li.active a, .sub-menu ul li a:hover {color:#fff !important; background:#7dcbb4;}
 
 
 
@@ -378,7 +375,7 @@ header {
 	margin:0;
 	padding:11px 0;
 	text-transform:none;
-	font-family: 'Roboto', sans-serif;
+	font-family: 'Lato', sans-serif;
 	font-weight:300;
 	line-height:20px;
 	font-size: 13px;
@@ -572,7 +569,7 @@ header {
 
 .cleancode_block .nav-tabs li a span {
 	display:block;
-	font-family: 'Roboto', sans-serif;
+	font-family: 'Lato', sans-serif;
 	font-weight:400;
 	line-height:20px;
 	font-size:20px;
@@ -1192,7 +1189,7 @@ input[type="text"] {
 	margin:0 0 10px;
 	padding: 10px 8px;
 	text-transform:none;
-	font-family: 'Roboto', sans-serif;
+	font-family: 'Lato', sans-serif;
 	font-weight:400;
 	line-height:20px;
 	font-size: 12px;
@@ -1248,7 +1245,7 @@ input[type="color"]:focus {
 	text-shadow:none;
 	text-decoration:none;
 	text-transform:uppercase;
-	font-family: 'Roboto', sans-serif;
+	font-family: 'Lato', sans-serif;
 	font-weight:900;
 	line-height:20px;
 	font-size:13px;
@@ -1847,8 +1844,8 @@ input[type="color"]:focus {
 	
 	
 /* __________ Menu __________ */
-	a.menu_toggler {display:inline-block; float:right; margin: 20px 0 0 20px; width:40px; height:40px; text-align:center; line-height:38px; font-size:23px; color:#fff; background-color:#333;}
-	a.menu_toggler:hover {background-color:#333;}
+	a.menu_toggler {display:inline-block; float:right; margin: 20px 0 0 20px; width:40px; height:40px; text-align:center; line-height:38px; font-size:23px; color:#fff; background-color:#3e6c61;}
+	a.menu_toggler:hover {background-color:#7dcbb4;}
 	
 	.navmenu {position:absolute; left:0; right:0; top:80px; background-color:#fff;}
 	.navmenu ul {padding:10px 0;}
@@ -1858,7 +1855,7 @@ input[type="color"]:focus {
 	.sub-menu ul {display:block; position:static; width:100%; box-shadow:none; padding:0; margin:0;}
 	.sub-menu ul:before {display:none !important;}
 	.navmenu li.sub-menu:hover, .navmenu li.sub-menu.active_page {background:none;}
-	.sub-menu ul li a {background:none; border:0; padding-left:30px;}
+	.sub-menu ul li a {background:none; border:0; padding-left:30px; color:#3e6c61;}
 	.sub-menu ul li a:hover, .sub-menu ul li.active a {background:none !important; color:#333 !Important;}
 	.sub-menu ul li a:before {content:'-'; position:absolute; z-index:10; left:17px; top:4px; color:#666;}
 
