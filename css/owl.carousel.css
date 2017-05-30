@@ -98,11 +98,11 @@
 	width:70px;
 	height:70px;
 	margin:0 0 0 -2px;
-	border:2px solid #ccc;
+	background-color: #ed8c72;
 	transition: all 0.3s ease-in-out; 
 	-webkit-transition: all 0.3s ease-in-out;
 }
-.owl-theme .owl-controls .owl-buttons div:hover {z-index:2; border-color:#333;}
+.owl-theme .owl-controls .owl-buttons div:hover {z-index:2; background-color:#f05d2d;}
 .owl-theme .owl-controls .owl-buttons div:before {
 	position:absolute;
 	left:0;
@@ -113,13 +113,13 @@
 	text-align:center;
 	line-height:66px;
 	font-size:32px;
-	color:#ccc;
+	color:#fff;
 	transition: all 0.3s ease-in-out; 
 	-webkit-transition: all 0.3s ease-in-out;
 }
 .owl-theme .owl-controls .owl-buttons .owl-prev:before {content: "\f104";}
 .owl-theme .owl-controls .owl-buttons .owl-next:before {content: "\f105";}
-.owl-theme .owl-controls .owl-buttons div:hover:before {color:#333;}
+.owl-theme .owl-controls .owl-buttons div:hover:before {color:#fff;}
 
 
 /* Styling Pagination*/
