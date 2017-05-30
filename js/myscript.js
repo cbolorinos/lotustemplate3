@@ -279,7 +279,7 @@ jQuery(window).resize(function(){
 function contactHeight(){
 	if ($(window).width() > 991){
 		var wh = jQuery('footer').height() + 70;
-		jQuery('#contacts').css('min-height', wh);
+		jQuery('#footer-clear').css('min-height', wh);
 	}
 	
 

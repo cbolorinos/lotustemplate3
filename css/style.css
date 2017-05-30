@@ -133,8 +133,8 @@ h1, h2, h3, h4, h5, h6 {
 	color:#333;
 }
 h1 {margin:0 0 26px; line-height:46px; font-size:46px;}
-h2 {margin:0 0 26px; line-height:40px; font-size:40px;}
-h2 b {font-weight:500;}
+h2 {margin:0 0 26px; line-height:40px; font-size:40px; color:#7dcbb4;}
+h2 b {font-weight:500; color:#3e6c61;}
 h3 {margin:0 0 21px; line-height:25px; font-size:22px;}
 h3 b {font-weight:900;}
 h4 {margin:0 0 34px; line-height:25px; font-size:20px;}
@@ -143,6 +143,7 @@ h5 {margin:0 0 15px; line-height:20px; font-size:15px;}
 h6 {margin:0 0 15px; line-height:20px; font-size:12px;}
 
 .text-white{color:#fff;}
+.text-white b{color:#d0ebe5;}
 .center {text-align:center;}
 .right {text-align:right;}
 
@@ -189,6 +190,7 @@ blockquote:before {content:'“'; position:absolute; left:15px; top:13px; font-s
 	background-color: #ed8c72;
 	color:white;
 	margin: 20px 0;
+	border:none;
 }
 .btn:focus, .btn:hover {color:#333; border-color:#333;}
 .btn-small:focus, .btn-small:hover {color:#fff; background-color: #f05d2d;}
@@ -956,25 +958,38 @@ ul.project_info li span {color:#979797;}
 /*	Costs
 /*-----------------------------------------------------------------------------------*/
 
+#costs {
+	background-image:url(../images/contacts_bg.jpg);
+	background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position:right;
+}
+.nav-tabs > li {
+	margin-bottom:-2px;
+}
 .nav-tabs > li > a{
 	color: #fff;
     cursor: default;
     background-color: #3e6c61;
     border:none;
+    font-size:16px;
 }
 
 .nav-tabs > li > a:hover{
-    background-color: #7dcbb4;
+    background-color: #fff;
+    color:#000;
+    border-bottom: 1px solid #fff;
 }
 
 .nav-tabs > li.active > a, .nav-tabs > li.active > a:hover, .nav-tabs > li.active > a:focus {
-    color: #fff;
+    color: #000;
     cursor: default;
-    background-color: #7dcbb4;
-    border:none;
+    background-color: #fff;
+    border-bottom: 1px solid #fff;
 }
 .costs-content{
-	padding: 20px 0;
+	padding: 20px 20px;
+	background-color: #fff; 
 }
 .prices > h4{
 	margin-bottom: 10px;
@@ -1113,16 +1128,39 @@ ul.project_info li span {color:#979797;}
 	color:#999;
 }
 
+
 /*-----------------------------------------------------------------------------------*/
 /*	Contacts
 /*-----------------------------------------------------------------------------------*/
 
 #contacts {
-	background-image:url(../images/contacts_bg.jpg);
+	background:#fff;
 }
 
-
-
+.form-group label{
+	color:#000;
+	font-size: 14px;
+}
+.contact-info{
+	padding-left:15px;
+	margin-top: 25px;
+}
+.contact-info h3{
+	color:#000;
+}
+.contact-info a{
+	display:block;
+	margin:20px 0;
+	color:#000;
+	font-size: 18px;
+}
+.contact-info i{
+	margin: 0 10px 10px 0;
+}
+.contact-info a:hover, .contact-info a:focus, .contact-info a:active{
+	color:#ed8c72;
+	font-size: 18px;
+}
 
 
 
@@ -1173,16 +1211,16 @@ footer h4 {color:#fff;}
 /*-----------------------------------------------------------------------------------*/
 #map {
 	position:fixed;
-	z-index:3;
+	z-index:999;
 	bottom:-100%;
-	left:0;
+	left:100px;
 	right:0;
 	height:401px;
 	transition: all 0.3s ease-in-out; 
 	-webkit-transition: all 0.3s ease-in-out;
 }
 #map iframe {width:100%; height:399px;}
-#map.showed {bottom:0;}
+#map.showed {bottom:100px;}
 
 
 
@@ -1225,15 +1263,15 @@ footer h4 {color:#fff;}
 	display:block;
 	width:50px;
 	height:50px;
-	border:1px solid #242424;
+	border:2px solid #3e6c61;
 	text-align:center;
 	line-height:46px;
 	font-size:23px;
-	color:#333;
+	color:#3e6c61;
 }
 .social li a:hover {
-	color:#ccc;
-	border-color:#ccc;
+	color:#7dcbb4;
+	border-color:#7dcbb4;
 }
 
 
@@ -1257,11 +1295,9 @@ input[type="text"] {
 	font-weight:400;
 	line-height:20px;
 	font-size: 12px;
-	color: #333;
+	color: #fff;
 	font-style:normal;
-	border-radius: 0;	
-	background: none;
-	border: 2px solid #242424;
+	background: #fff;
 	box-shadow: none;
 	transition: border-color 0.3s ease-in-out; 
 	-webkit-transition: border-color 0.3s ease-in-out;
@@ -1725,6 +1761,9 @@ input[type="color"]:focus {
 
 @media (max-width: 992px) {
 	.offset-top-30-mobile{margin-top: 30px;}
+	.contact-info > a > i{
+		display:none;
+	}
 }
 
 @media (min-width: 992px) and (max-width: 1199px) {
