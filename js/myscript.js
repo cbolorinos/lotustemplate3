@@ -278,7 +278,7 @@ jQuery(window).resize(function(){
 
 function contactHeight(){
 	if ($(window).width() > 991){
-		var wh = jQuery('footer').height() + 70;
+		var wh = jQuery('footer').height() + 80;
 		jQuery('#footer-clear').css('min-height', wh);
 	}
 	
@@ -287,20 +287,6 @@ function contactHeight(){
 
 
 
-
-
-/*-----------------------------------------------------------------------------------*/
-/*	FOOTER MAP
-/*-----------------------------------------------------------------------------------*/
-jQuery(document).ready(function() {
-	jQuery('.map_show').click(function(){
-		jQuery('#map').addClass('showed');
-	});
-	
-	jQuery('.map_hide').click(function(){
-		jQuery('#map').removeClass('showed');
-	});
-});
 
 
 
