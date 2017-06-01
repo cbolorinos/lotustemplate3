@@ -41,7 +41,7 @@ html[xmlns] .slides {display: block;}
 /* FlexSlider Default Theme
 *********************************/
 .flexslider {overflow:hidden; position: relative; z-index:2;}
-.flexslider.top_slider {min-height:564px; background-color:#ccc;}
+.flexslider.top_slider {background-color:#fff;}
 .flexslider.top_slider:before {
 	content:'';
 	position:absolute;
@@ -314,7 +314,7 @@ html[xmlns] .slides {display: block;}
 	height:100%;
 	background-image:url(../images/slider/slide1_bg.jpg);
 	background-size:cover;
-	background-attachment:fixed !important;
+	background-attachment:fixed;
 	background-position: center;
 }
 
@@ -342,7 +342,7 @@ html[xmlns] .slides {display: block;}
 	height:100%;
 	background-image:url(../images/slider/slide2_bg.jpg);
 	background-size:cover;
-	background-attachment:fixed !important;
+	background-attachment:fixed;
 	background-position: right;
 }
 
@@ -545,7 +545,9 @@ html[xmlns] .slides {display: block;}
 	
 	#carousel {display:none;}
 	
-	
+	.top_slider .slide1 {background-image:url(../images/slider/slide1_bg_mobile.jpg); background-attachment: scroll;}
+	.top_slider .slide2 {background-image:url(../images/slider/slide2_bg_mobile.jpg); background-attachment: scroll;}
+	.top_slider .slide3 {background-image:url(../images/slider/slide3_bg_mobile.jpg); background-attachment: scroll;}
 }
 
 
