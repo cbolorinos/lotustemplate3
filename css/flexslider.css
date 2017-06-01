@@ -504,7 +504,7 @@ html[xmlns] .slides {display: block;}
 	
 }
 
-@media (min-width: 768px) and (max-width: 991px) {
+@media (min-width: 768px) and (max-width: 1199px) {
 	.top_slider .slide1 .flex_caption1, .top_slider .slide2 .flex_caption1, .top_slider .slide3 .flex_caption1 {margin-left:-375px;}
 	.top_slider .slide1 .flex_caption1 .title1, .top_slider .slide1 .flex_caption1 .title2, .top_slider .slide1 .flex_caption1 .title3, .top_slider .slide2 .flex_caption1 .title1, .top_slider .slide2 .flex_caption1 .title2, .top_slider .slide2 .flex_caption1 .title3, .top_slider .slide3 .flex_caption1 .title1, .top_slider .slide3 .flex_caption1 .title2, .top_slider .slide3 .flex_caption1 .title3 {font-size:60px; line-height:60px;}
 	.top_slider .slide_btn {margin-left:204px;}

@@ -146,7 +146,7 @@ h6 {margin:0 0 15px; line-height:20px; font-size:12px;}
 .text-white b{color:#d0ebe5;}
 .center {text-align:center;}
 .right {text-align:right;}
-
+.left {text-align:left;}
 .color_text {color:#30a67c;}
 .color_dark {color:#505050;}
 .color_light {color:#979797;}
@@ -290,7 +290,7 @@ header {
 	right:0;
 	height:80px;
 	width:100%;
-	background-color:#fff;
+	background-color:rgba(0,0,0,0.1);
 	box-shadow:0 2px 3px rgba(0,0,0,0.1);
 }
 
@@ -1024,7 +1024,6 @@ ul.project_info li span {color:#979797;}
 	transition: all 0.3s ease-in-out; 
 	-webkit-transition: all 0.3s ease-in-out;
 }
-.post_item:hover .post_item_img:before {background-color:rgba(0,0,0,0.8);}
 .post_item_content {padding:23px 0 0;}
 .post_item_content a.title {
 	font-weight:300;
@@ -1113,7 +1112,6 @@ ul.project_info li span {color:#979797;}
 }
 .post_item_img_widget img {
 	width:auto;
-	max-width:none;
 	height:100%;
 	transition: opacity 0.3s ease-in-out; 
 	-webkit-transition: opacity 0.3s ease-in-out;
